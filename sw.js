@@ -4,7 +4,7 @@
 // On every new deploy, skipWaiting() + clients.claim() lets the new SW
 // take over without waiting for all tabs to close.
 
-const CACHE = 'cistern-cboard-v1';
+const CACHE = 'cistern-cboard-v2';
 const ASSETS = ['./', './index.html'];
 
 self.addEventListener('install', e => {
